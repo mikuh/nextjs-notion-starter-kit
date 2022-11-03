@@ -20,6 +20,7 @@ import { searchNotion } from '@/lib/search-notion'
 import { useDarkMode } from '@/lib/use-dark-mode'
 
 import { Footer } from './Footer'
+import { ReactUtterances } from './ReactUtterances'
 import { Loading } from './Loading'
 import { NotionPageHeader } from './NotionPageHeader'
 import { Page404 } from './Page404'
@@ -240,7 +241,20 @@ export const NotionPage: React.FC<types.PageProps> = ({
   const socialDescription =
     getPageProperty<string>('Description', block, recordMap) ||
     config.description
-
+  
+    let comments: React.ReactNode = null
+  
+  if (block.type === 'page' && block.parent_table === 'collection') {
+    comments = (
+      <ReactUtterances
+        repo='transitive-bullshit/transitivebullsh.it'
+        issueMap='issue-term'
+        issueTerm='title'
+        label='blog'
+        theme='preferred-color-scheme'
+      />
+    )
+  }
   return (
     <>
       <PageHead
@@ -277,6 +291,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
         mapImageUrl={mapImageUrl}
         searchNotion={config.isSearchEnabled ? searchNotion : null}
         pageAside={pageAside}
+        pageFooter={comments}
         footer={footer}
       />
     </>
