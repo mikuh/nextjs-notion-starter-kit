@@ -17,6 +17,10 @@ module.exports = withBundleAnalyzer({
     ],
     formats: ['image/avif', 'image/webp'],
     dangerouslyAllowSVG: true,
-    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;"
+    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
+    // Utteranc.es comments via GitHub issue comments (optional)
+    utterancesGitHubRepo: 'mikuh/nextjs-notion-starter-kit',
+    utterancesGitHubLabel: 'Comment',
   }
 })
+
