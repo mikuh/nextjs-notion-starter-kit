@@ -14,12 +14,12 @@ export default siteConfig({
   author: 'geb',
 
   // open graph metadata (optional)
-  description: 'Example Next.js Notion Starter Kit Site',
+  description: '专注于深度学习、强化学习、隐私计算的研究...',
 
   // social usernames (optional)
   twitter: 'transitive_bs',
-  github: 'transitive-bullshit',
-  linkedin: 'fisch2',
+  github: 'mikuh',
+  // linkedin: 'fisch2',
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
 
