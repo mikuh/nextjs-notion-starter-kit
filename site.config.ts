@@ -52,12 +52,12 @@ export default siteConfig({
   navigationStyle: 'custom',
   navigationLinks: [
     {
-      title: 'AI绘画作品',
-      pageId: '8c71cc36451a47868f9330b1233464cd'
+      title: '绘画作品',
+      pageId: 'Ai-Painting-Works-8c71cc36451a47868f9330b1233464cd'
     },
     {
-      title: 'Contact',
-      pageId: '2095f3adca0e4c868188ff64e8220520'
+      title: '联系作者',
+      pageId: 'contact-2095f3adca0e4c868188ff64e8220520'
     }
   ]
 })
