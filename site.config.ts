@@ -54,11 +54,11 @@ export default siteConfig({
   navigationLinks: [
     {
       title: 'AI绘画',
-      pageId: 'Ai-Painting-8c71cc36451a47868f9330b1233464cd' //Ai-Painting-8c71cc36451a47868f9330b1233464cd
+      pageId: '8c71cc36451a47868f9330b1233464cd' //Ai-Painting-8c71cc36451a47868f9330b1233464cd
     },
     {
       title: '联系作者',
-      pageId: 'Contact-2095f3adca0e4c868188ff64e8220520' // Contact-2095f3adca0e4c868188ff64e8220520
+      pageId: '2095f3adca0e4c868188ff64e8220520' // Contact-2095f3adca0e4c868188ff64e8220520
     }
   ]
 })
