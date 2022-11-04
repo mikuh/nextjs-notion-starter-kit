@@ -14,7 +14,7 @@ export default siteConfig({
   author: 'geb',
 
   // open graph metadata (optional)
-  description: '专注于深度学习、强化学习、隐私计算的研究...',
+  description: '专注于深度学习、强化学习、隐私计算、区块链的研究...',
   // social usernames (optional)
   // twitter: 'transitive_bs',
   github: 'mikuh',
@@ -53,11 +53,11 @@ export default siteConfig({
   navigationLinks: [
     {
       title: '绘画作品',
-      pageId: 'Ai-Painting-Works-8c71cc36451a47868f9330b1233464cd'
+      pageId: '8c71cc36451a47868f9330b1233464cd'
     },
     {
       title: '联系作者',
-      pageId: 'Contact-2095f3adca0e4c868188ff64e8220520'
+      pageId: '2095f3adca0e4c868188ff64e8220520'
     }
   ]
 })
