@@ -14,7 +14,7 @@ export default siteConfig({
   author: 'GEB',
 
   // open graph metadata (optional)
-  description: '专注于深度学习、强化学习、隐私计算、区块链的研究...',
+  description: '专注于深度学习、强化学习、隐私计算、区块链等前言技术的研究...',
   // social usernames (optional)
   twitter: 'DeepMikuru',
   github: 'mikuh',
