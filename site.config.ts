@@ -11,13 +11,14 @@ export default siteConfig({
   // basic site info (required)
   name: 'Mew Impetus',
   domain: 'mewimpetus.com',
-  author: 'geb',
+  author: 'GEB',
 
   // open graph metadata (optional)
   description: '专注于深度学习、强化学习、隐私计算、区块链的研究...',
   // social usernames (optional)
-  // twitter: 'transitive_bs',
+  twitter: 'DeepMikuru',
   github: 'mikuh',
+  wechat: 'https://mp.weixin.qq.com/s?__biz=MzI3NzYxNjE4Mw==&mid=2247483689&idx=1&sn=a73fcea711e126ef98ea30b8437cab22',
   // linkedin: 'fisch2',
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
@@ -51,10 +52,10 @@ export default siteConfig({
   // navigationStyle: 'default',
   navigationStyle: 'custom',
   navigationLinks: [
-    {
-      title: '绘画作品',
-      pageId: '8c71cc36451a47868f9330b1233464cd'
-    },
+    // {
+    //   title: '绘画作品',
+    //   pageId: '8c71cc36451a47868f9330b1233464cd'
+    // },
     {
       title: '联系作者',
       pageId: '2095f3adca0e4c868188ff64e8220520'
