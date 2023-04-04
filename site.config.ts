@@ -57,8 +57,12 @@ export default siteConfig({
       pageId: '8c71cc36451a47868f9330b1233464cd' //Ai-Painting-8c71cc36451a47868f9330b1233464cd
     },
     {
+      title: 'ChatGPT',
+      pageId: '4e7e259c7f744861a00c2d9a1c43e535' //Ai-Painting-8c71cc36451a47868f9330b1233464cd
+    },
+    {
       title: '联系作者',
       pageId: '2095f3adca0e4c868188ff64e8220520' // Contact-2095f3adca0e4c868188ff64e8220520
-    }
+    },
   ]
 })
