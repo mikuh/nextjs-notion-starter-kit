@@ -63,6 +63,6 @@ export default siteConfig({
     {
       title: '联系作者',
       pageId: '2095f3adca0e4c868188ff64e8220520' // Contact-2095f3adca0e4c868188ff64e8220520
-    },
+    }
   ]
 })
